@@ -67,5 +67,14 @@ public class C03_Locators {
         List<WebElement> linksOnThePage= driver.findElements(By.tagName("a"));
         System.out.println("This page contains "+linksOnThePage.size()+" links");
 
+        //linklerin yazilarini yazdiralim
+        //elimizdeki listedeki tum webelement'lerin yazilarini for loop veya for-each veya lambda ile yazdirabiliriz
+        //tum elementler yazdirilacaksa bu durumda for-each loop daha kullanisli olacaktir
+        for (WebElement each: linksOnThePage) {
+            System.out.println(each.getText());
+        }
+
+        driver.close();
+
     }
 }
