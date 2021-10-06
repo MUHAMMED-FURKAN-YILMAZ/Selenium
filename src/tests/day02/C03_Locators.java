@@ -6,6 +6,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class C03_Locators {
     public static void main(String[] args) throws InterruptedException {
         //1. Bir class oluşturun: LocatorsIntro
@@ -61,15 +64,8 @@ public class C03_Locators {
         }
 
         //3. Sayfada kac tane link oldugunu bulun.
-
-        //******yarina odev********
-        //1. Bir class oluşturun : AmazonSearchTest
-        //2. Main method oluşturun ve aşağıdaki görevi tamamlayın.
-        // a.google web sayfasına gidin. https://www. amazon.com/
-        // b. Search(ara) “city bike”
-        // c. Amazon'da görüntülenen ilgili sonuçların sayısını yazdırın
-        // d. “Shopping” e tıklayın.
-        // e. Sonra karşınıza çıkan ilk sonucun resmine tıklayın.
+        List<WebElement> linksOnThePage= driver.findElements(By.tagName("a"));
+        System.out.println("This page contains "+linksOnThePage.size()+" links");
 
     }
 }
