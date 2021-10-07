@@ -46,8 +46,6 @@ public class C02_Cssselector {
         // i. Username : testtechproed@gmail.com
         // ii. Password : Test1234!
 
-        //ODEV
-        // amazon.com a gidip java kelimesini aratin
-        // kac sonuc geldigini ve gelen sonuclardan 4.ve 7.nin isimlerini yazdirin
+
     }
 }
