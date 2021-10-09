@@ -21,7 +21,7 @@ public class C02_Cssselector {
         WebElement emailTextBox= driver.findElement(By.cssSelector(".form-control")); // ctrl+f-> 2 tane bulmustu
         emailTextBox.sendKeys("testtechproed@gmail.com");
 
-       //************ xpath ve css de unique olmasa bile ilk gordugune yapar***********
+       //************ xpath ve css de unique olmasa bile ilk gordugunu getirir***********
 
 
         // c. Locate password textbox ve
