@@ -7,7 +7,7 @@ public class C04_VerifyURLTest {
     public static void main(String[] args) {
         //Yeni bir class olusturalim : (VerifyURLTest)
         // Youtube ana sayfasina gidelim https://www.techproeducation.com/
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\Muhammed Furkan Yılm\\Documents\\selenium dependencies\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\user\\Documents\\selenium dependencies\\drivers\\chromedriver.exe");
         WebDriver driver=new ChromeDriver();
 
         //Sayfa URL’inin www.techproeducation.com oldugunu dogrulayin

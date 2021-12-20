@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class C05_TekrarTesti {
     public static void main(String[] args) {
         //1. Yeni bir class olusturun (TekrarTesti)
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\Muhammed Furkan Yılm\\Documents\\selenium dependencies\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\user\\Documents\\selenium dependencies\\drivers\\chromedriver.exe");
         WebDriver driver= new ChromeDriver();
 
         //2. Youtube web sayfasına gidin ve sayfa başlığının “youtube” olup olmadığını doğrulayın

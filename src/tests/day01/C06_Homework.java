@@ -7,7 +7,7 @@ public class C06_Homework {
     public static void main(String[] args) {
 
         //1.Yeni bir class olusturalim (Homework)
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\Muhammed Furkan Yılm\\Documents\\selenium dependencies\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\user\\Documents\\selenium dependencies\\drivers\\chromedriver.exe");
         WebDriver driver= new ChromeDriver();
 
         //2.ChromeDriver kullanarak, facebook sayfasina gidin ve sayfa basliginin (title) “facebook”

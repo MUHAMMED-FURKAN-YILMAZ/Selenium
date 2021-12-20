@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class C02_AmazonArama {
     public static void main(String[] args) {
 
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\Muhammed Furkan Yılm\\Documents\\selenium dependencies\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\user\\Documents\\selenium dependencies\\drivers\\chromedriver.exe");
         WebDriver driver= new ChromeDriver();
 
         // amazon web sayfasina gidip java icin arama yapin ve bulunan sonuc sayisini yazdirin

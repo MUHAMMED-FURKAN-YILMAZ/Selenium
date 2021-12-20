@@ -14,7 +14,7 @@ public class C03_Locators {
         //1. Bir class oluşturun: LocatorsIntro
         //2. Main method oluşturun ve aşağıdaki görevi tamamlayın.
 
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\Muhammed Furkan Yılm\\Documents\\selenium dependencies\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\user\\Documents\\selenium dependencies\\drivers\\chromedriver.exe");
         WebDriver driver= new ChromeDriver();
 
         // a. http://a.testaddressbook.com adresine gidiniz.

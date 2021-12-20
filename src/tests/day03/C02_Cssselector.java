@@ -10,7 +10,7 @@ public class C02_Cssselector {
         //1. Bir class oluşturun : Locators_css
         //2. Main method oluşturun ve aşağıdaki görevi tamamlayın.
 
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\Muhammed Furkan Yılm\\Documents\\selenium dependencies\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\user\\Documents\\selenium dependencies\\drivers\\chromedriver.exe");
         WebDriver driver= new ChromeDriver();
         driver.manage().window().maximize();
 

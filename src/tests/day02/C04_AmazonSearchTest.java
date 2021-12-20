@@ -11,7 +11,7 @@ public class C04_AmazonSearchTest {
         //1. Bir class oluşturun : AmazonSearchTest
         //2. Main method oluşturun ve aşağıdaki görevi tamamlayın.
 
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\Muhammed Furkan Yılm\\Documents\\selenium dependencies\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\user\\Documents\\selenium dependencies\\drivers\\chromedriver.exe");
         WebDriver driver= new ChromeDriver();
 
         // a.google web sayfasına gidin. https://www. amazon.com/

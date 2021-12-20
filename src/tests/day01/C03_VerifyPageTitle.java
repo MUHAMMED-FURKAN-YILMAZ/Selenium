@@ -8,7 +8,7 @@ public class C03_VerifyPageTitle {
         //Yeni bir Class olusturalim. (VerifyTitle)
 
         //Amazon ana sayfasina gidelim . https://www.amazon.com/
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\Muhammed Furkan Yılm\\Documents\\selenium dependencies\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\user\\Documents\\selenium dependencies\\drivers\\chromedriver.exe");
         WebDriver driver=new ChromeDriver();
         driver.get("https://www.amazon.com");
         //Sayfa basliginin (title) “amazon” oldugunu dogrulayin. (verify)
